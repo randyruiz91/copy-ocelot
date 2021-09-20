@@ -1,0 +1,362 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.headers {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #05336B;
+    width: 1425px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 80px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ibm {
+    margin-left: 15px;
+    font-size: large;
+    color: white;
+}
+
+.search-bar {
+    margin-left: 225px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: #3C5C88;
+}
+
+.globe {
+    height: 34px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+.US {
+    margin-right: 5px;
+    font-size: larger;
+    color: white;
+}
+
+.divider {
+    font-size: xx-large;
+    margin-right: 5px;
+    color: white;
+}
+
+.farenheit {
+    font-size: larger;
+    color: white;
+}
+
+.tri-down {
+    margin-left: 15px;
+    color: white;
+}
+
+.premium {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.three-bar {
+    margin-left: px;
+    color: white;
+}
+
+.header-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #3C5C88;
+    width: 1425px;
+    height: 40px;   
+}
+
+.temp {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    margin-left: 165px;
+    color: white;
+}
+
+.video-icon {
+    height: 29px;
+    width: 24px;
+    padding-left: 85px;
+}
+
+.header-3 {
+    width: 1425px;
+    height: 40px;
+    background-color: #061F40;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.today {
+    color: white;
+    font-size: large;
+    margin-left: 120px;
+}
+
+.hourly {
+    color: white;
+    font-size: large; 
+    margin-left: 100px;      
+}
+
+.ten-day {
+    color: white;
+    font-size: large;
+    margin-left: 85px;
+}
+
+.weekend {
+    color: white;
+    font-size: large;
+    margin-left: 85px;
+}
+
+.monthly {
+    color: white;
+    font-size: large;
+    margin-left: 85px;
+}
+
+.radar {
+    color: white;
+    font-size: large;
+    margin-left: 85px;
+}
+
+.video {
+    color: white;
+    font-size: large;
+    margin-left: 5px;
+}
+
+.forecasts {
+    color: white;
+    font-size: large;
+    margin-left: 85px;
+}
+
+.main-body {
+    display: flex;
+    width: 1425px;
+    height: 3950px;
+    background-color: #8AAFDD;
+}
+
+.first-half {
+    display: grid;
+    grid-template-columns: 320px 160px;
+    grid-template-rows: 95px 95px 95px;
+    width: 511px;
+    height: 650px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 50px;
+    grid-template-areas:
+    "left right"
+    "left right"
+    "left right"
+}
+
+
+.top-stories {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.earth {
+    width: 311px;
+    height: 175px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.track-trop {
+    font-size: 24px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.tom-cruise {
+    width: 319px;
+    height: 69px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-left: 15px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.state-icon-1 {
+    width: 24px;
+    height: 24px;
+}
+
+.cruise-state {
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.tree {
+    width: 319px;
+    height: 69px;
+    border-bottom: 1px solid grey;
+    margin-left: 15px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.state-icon-2 {
+    width: 24px;
+    height: 24px;
+}
+
+.tree-state {
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.death-valley {
+    width: 319px;
+    height: 69px;
+    border-bottom: 1px solid grey;
+    margin-left: 15px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.state-icon-3 {
+    width: 24px;
+    height: 24px;
+}
+
+.valley-state {
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.delivery {
+    width: 319px;
+    height: 69px;
+    margin-left: 15px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.state-icon-4 {
+    width: 24px;
+    height: 24px;
+}
+
+.delivery-state {
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.more-stories {
+    width: 112px;
+    height: 32px;
+    margin-left: 15px;
+    margin-top: 30px;
+    background-color: #1B4DE4;
+    color: white;
+    border-radius: 20px;
+}
+
+.vol {
+    width: 151px;
+    height: 85px;
+    margin-left: 20px;
+    margin-top: 45px;
+    border-radius: 5px;
+}
+
+.volcano-statement {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.the-map {
+    width: 151px;
+    height: 85px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.map-state {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.mess {
+    width: 151px;
+    height: 85px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+}
+
+.message-state {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.left-of-first {
+    display: flex;
+    flex-direction: column;
+    grid-area: left;
+}
+
+.right-of-first {
+    display: flex;
+    flex-direction: column;
+    grid-area: right;
+}
